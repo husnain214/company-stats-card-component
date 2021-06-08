@@ -92,13 +92,12 @@ section .right-box img, section .right-box .overlay {
 #attribution {
   font-family: 'inter';
   font-size: 1em;
-  margin-top: 1em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
   color: white;
-  margin: 0;
+  margin: 1em 0 0 0;
 }
 
 #attribution a {
@@ -167,7 +166,7 @@ section .right-box img, section .right-box .overlay {
   }
   #attribution {
     width: 80%;
-    margin-left: 1em;
+    margin: 1em 0 0 1em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;

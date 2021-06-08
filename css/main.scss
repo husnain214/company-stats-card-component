@@ -88,11 +88,10 @@ section {
 #attribution {
     font-family: 'inter';
     font-size: 1em;
-    margin-top: 1em;
     align-self: center;
     text-align: center;
-    color:white;
-    margin: 0;
+    color: white;
+    margin: 1em 0 0 0;
 
     a {
         color: rgb(63, 106, 199);
@@ -166,7 +165,7 @@ section {
 
     #attribution {
         width: 80%;
-        margin-left: 1em;
+        margin: 1em 0 0 1em;
         align-self: center;
     }
 }
