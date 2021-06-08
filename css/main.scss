@@ -85,13 +85,14 @@ section {
     
 }
 
-.attribution {
+#attribution {
     font-family: 'inter';
     font-size: 1em;
     margin-top: 1em;
     align-self: center;
     text-align: center;
     color:white;
+    margin: 0;
 
     a {
         color: rgb(63, 106, 199);
@@ -139,7 +140,7 @@ section {
 
 @media (max-width: 862px) {
     section {
-        height: 65em;
+        height: 68em;
 
         .right-box {
             height: 25em;
@@ -148,8 +149,14 @@ section {
 }
 
 @media (max-width: 632px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
     section {
-        width: 23em;
+        width: 80%;
+        margin: 10% 6%;
         align-self: center;
 
         .right-box {
@@ -158,8 +165,8 @@ section {
     }
 
     #attribution {
-        margin: 0;
-        width: 20em;
+        width: 80%;
+        margin-left: 1em;
         align-self: center;
     }
 }

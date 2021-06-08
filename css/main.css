@@ -89,7 +89,7 @@ section .right-box img, section .right-box .overlay {
   height: 100%;
 }
 
-.attribution {
+#attribution {
   font-family: 'inter';
   font-size: 1em;
   margin-top: 1em;
@@ -98,9 +98,10 @@ section .right-box img, section .right-box .overlay {
       align-self: center;
   text-align: center;
   color: white;
+  margin: 0;
 }
 
-.attribution a {
+#attribution a {
   color: #3f6ac7;
   text-decoration: none;
 }
@@ -142,7 +143,7 @@ section .right-box img, section .right-box .overlay {
 
 @media (max-width: 862px) {
   section {
-    height: 65em;
+    height: 68em;
   }
   section .right-box {
     height: 25em;
@@ -150,8 +151,13 @@ section .right-box img, section .right-box .overlay {
 }
 
 @media (max-width: 632px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   section {
-    width: 23em;
+    width: 80%;
+    margin: 10% 6%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -160,8 +166,8 @@ section .right-box img, section .right-box .overlay {
     height: 18em;
   }
   #attribution {
-    margin: 0;
-    width: 20em;
+    width: 80%;
+    margin-left: 1em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
