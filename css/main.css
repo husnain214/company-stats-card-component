@@ -157,13 +157,13 @@ section .right-box img, section .right-box .overlay {
   section {
     width: 90%;
     margin: 10% 5%;
-    height: 62em;
+    height: 62%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
   }
   section .right-box {
-    height: 18em;
+    height: 47vh;
   }
   #attribution {
     width: 80%;
@@ -171,6 +171,19 @@ section .right-box img, section .right-box .overlay {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+}
+
+@media (max-width: 424px) {
+  section .left-box h1 {
+    font-size: 2.3em;
+  }
+  section .left-box p {
+    padding: 0;
+    margin-left: 1.5em;
+  }
+  section .right-box {
+    height: 15em;
   }
 }
 /*# sourceMappingURL=main.css.map */
