@@ -155,8 +155,9 @@ section .right-box img, section .right-box .overlay {
     overflow-x: hidden;
   }
   section {
-    width: 80%;
-    margin: 10% 6%;
+    width: 90%;
+    margin: 10% 5%;
+    height: 62em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -166,7 +167,7 @@ section .right-box img, section .right-box .overlay {
   }
   #attribution {
     width: 80%;
-    margin: 1em 0 0 1em;
+    margin-left: 2.5em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
